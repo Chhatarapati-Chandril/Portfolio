@@ -15,12 +15,12 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./client/src",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./*"],
-      "@shared/*": ["client/src/shared/*"]
+      "@/*": ["*"],
+      "@shared/*": ["../shared/*"]
     }
   },
-  "include": ["client/src", "client/src/shared"],
+  "include": ["src", "src/shared"],
   "exclude": ["node_modules"]
 }

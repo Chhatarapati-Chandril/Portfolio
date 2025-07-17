@@ -1,6 +1,25 @@
-node_modules
-dist
+# Ignore dependencies
+node_modules/
+client/node_modules/
+
+# Ignore build output
+dist/
+client/dist/
+
+# Ignore system files
 .DS_Store
-server/public
-vite.config.ts.*
+
+# Ignore backups & temp
 *.tar.gz
+*.log
+
+# Ignore Vite config backups (if any)
+vite.config.ts.*
+
+# Ignore any server files (if you ever add backend later)
+server/public/
+server/dist/
+
+# Ignore environment variables
+.env
+.env.*
